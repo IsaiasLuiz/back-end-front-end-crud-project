@@ -1,0 +1,43 @@
+.register-course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error {
+	width: 450px;
+	border-radius: 5px;
+	color: #ff3333;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 1px solid #ff3333;
+	padding: 10px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.categories-select {
+    display: block;
+	width: 457px;
+	height: 30px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	padding-left: 5px;
+    border: 1px solid rgb(54, 8, 8);
+    margin-right: 0px;
+    
+}
+
+.button-save {
+    display: block;
+	width: 457px;
+    height: 45px;
+    cursor: pointer;
+    background: rgb(26, 231, 26);
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 900;
+}

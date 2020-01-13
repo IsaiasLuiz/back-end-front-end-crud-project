@@ -1,0 +1,51 @@
+.card {
+	border-radius: 5px;
+	display: flex;
+	width: 320px;
+	min-height: 250px;
+	flex-direction: column;
+	margin: 10px 10px 10px 10px;
+	box-shadow: 1px 0px 5px 1px rgb(155, 152, 152);
+	cursor: pointer;
+	background: #fff;
+}
+
+.card h4 {
+	font-size: 1.1em;
+	font-weight: 900;
+	text-align: center;
+	color: #319e3a;
+}
+
+.card h4 p {
+	font-size: 0.6em;
+	margin: 5px;
+}
+
+.card p {
+	font-size: 1em;
+	color: #186481;
+	margin: 20px 0 20px 10px;
+	word-wrap: breakword;
+	text-align: center;
+}
+
+.card:hover {
+	box-shadow: 2px 1px 5px rgb(155, 152, 152);
+}
+
+.button {
+	outline: none;
+	margin: 5px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 2px ;
+	border-style: solid;
+	height: 25px;
+	color: #fff;
+	font-weight: 900;
+}
+
+.button:hover {
+	font-size: 0.9em;
+}
